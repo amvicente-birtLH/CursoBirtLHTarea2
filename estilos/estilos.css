@@ -1,0 +1,169 @@
+/*estilos/estilos.css/
+
+/*estilo del cuerpo*/
+body{
+	background-color:#F0FFF0;
+	font-family:Arial, sans-serif;
+	line-height:1.6;
+	margin:0;
+	padding:0;
+	color:#333;
+}
+
+/*estilo de los títulos*/
+h1{
+	color:darkgreen;
+	font-family:Courier New, monospace;
+	font-size:3em;
+	text-align:center;
+	padding: 10px 0;
+	m: 0;
+}
+
+h2{
+	color:blue;
+	border-bottom:2px solid #ccc;
+	padding-bottom: 5px;
+	margin:25px;
+	
+}
+
+header{
+	background-color: lighterblue;
+	color:white;
+	padding:10px 0;
+	}
+
+section{
+	padding:20px;
+	margin-bottom:20px;
+	background-color:white;
+	border-radius:8px;
+}
+
+
+
+
+.gris{
+	color:gray;
+}
+
+#formulario{
+	padding:20px;
+
+}
+
+.activo{
+	color:white;
+	background-color:#0044AA;
+	padding:5px 10px;
+	border-radius:5px;
+}
+
+/*centrar tabla*/
+table{
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+	/*centrar texto tabla*/
+	table th, table td{
+		text-align:center;
+	}
+	
+
+	
+	#galeriadefotos{ /*meto color de fondo a la galería*/
+	background-color:#F0FFF0;
+	}	
+	
+	/*aplico el estilo al <ul> de la galería, solo a la parte de la lista*/
+	.galeria-fotos{
+	display:flex;
+	justify-content: space-between;
+	list-style:none;
+	padding:0;
+	margin:20px 0;
+	width: 100%;
+	}
+	.galeria-fotos li{/*estilo<li>*/
+	flex-basis:23%;
+	text-align:center;
+	margin:0 1%;
+	}
+	/*estilo imágenes*/
+	.galeria-fotos li img{
+		width:100%;
+		height:auto;
+		display:block;
+	}
+	.galeria-fotos li p{/*estilo textos*/
+	margin-top:10px;
+		font-size:0.9em;
+	}
+	
+	
+	.infoadicional {
+		color:#0000FF;
+		text-align:center;
+		font-size:1.2em;
+	}
+	
+a{
+	color:#0044AA;
+	text-decoration:none;
+}
+#Viajes{
+display:flex;
+justify-content:space-between; /*distribuye el espacio*/
+align-items:flex-start; /*alinea items de diferentes alturas*/
+padding:20px; /*para que haya espacio alrededor*/	
+	background-image: url("../galeria/fondo.jpg"); /*salgo de la carpeta estilos para que busque en la carpeta galeria*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	background-attachment:fixed;
+	}
+
+
+#hojas{
+	background-image:url("../galeria/fondo2.jpg"); /*salgo de la carpeta estilos para que busque en la carpeta galeria*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100px;
+	background-attachment:fixed;
+	padding:20px 0;
+	text-align:center;
+	color:#333;
+	}
+	
+#rutasprincipales{
+	background-image: url("../galeria/oferta.png"); /*salgo de la carpeta estilos para que busque en la carpeta galeria*/
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center center; /*centra en horizontal y vertical*/
+	height:70px;
+	
+	}
+	
+#enlaces{
+	background-image: url("../galeria/fondo3.jpg"); /*salgo de la carpeta estilos para que busque en la carpeta galeria*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100px;
+	background-attachment:fixed;
+	/*alinear los grupos*/
+	display:block; 
+	text-align:center;
+		width:100%; /*casi todo el ancho*/
+	margin:20px auto; /*centra*/
+}
+.enlaces-tiempo,
+.enlaces-que-hacer{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+		}
+		
+
+
