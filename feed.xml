@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Feed UD02</title>
+  <link>https://amvicente-birtlh.github.io/CursoBirtLHTarea2/</link>
+  <description>Novedades del sitio web de la UD02.</description>
+  <pubDate>Fri, 14 Nov 2025 17:39:00 +0100</pubDate>
+
+  <item>
+    <title>Novedad 1</title>
+    <link>https://amvicente-birtlh.github.io/CursoBirtLHTarea2/destinos.html</link>
+    <description>Actualización en la sección de destinos.</description>
+    <pubDate>Fri, 14 Nov 2025 17:40:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>Novedad 2</title>
+    <link>https://amvicente-birtlh.github.io/CursoBirtLHTarea2/contacto.html</link>
+    <description>Nueva información de contacto disponible.</description>
+    <pubDate>Fri, 14 Nov 2025 17:41:00 +0100</pubDate>
+  </item>
+  
+</channel>
+</rss>
